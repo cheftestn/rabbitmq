@@ -5,7 +5,7 @@
         cd lamp
         ./Dockerfile
         ./apache-config.conf
-        ./www/index.ph
+        ./www/index.php
 
 2) Building the container:
 =========================
@@ -23,7 +23,7 @@
 
 4) To Connect instance using Shell:
 ===================================
-        sudo docker exec -it  LAMP bash
+        sudo docker exec -it  lamp bash
 
 5) To chek instance is running are not and stop / start container :
 ===================================================================
